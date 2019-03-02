@@ -11,7 +11,8 @@ public class OOP {
             System.out.println("NIE :(");
         }
 
-
+        Car car = new Car("Foucs", "Ford", 3500);
+        car.show();
 
 
 

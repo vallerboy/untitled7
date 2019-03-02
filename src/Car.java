@@ -33,5 +33,8 @@ public class Car {
         this.price = price;
     }
 
+    public void show(){
+        System.out.println("model: " + model + " cena: " + price);
+    }
 
 }
