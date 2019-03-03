@@ -1,8 +1,13 @@
+import java.util.Random;
+
 public class Main {
     public static void main(String[] args) {
          Main main = new Main();
          System.out.println(main.add(5, 5));
 
+
+         Random random = new Random();
+         random.nextInt(100); // -2mld - +2mld
 
          int a = 10;
          int b = 15;
